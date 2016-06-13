@@ -13,9 +13,9 @@ public abstract class VehiculosPlazas extends Vehiculo
     /**
      * Constructor for objects of class VehiculosPlazas
      */
-    public VehiculosPlazas( int numPlazas, int kilometros, Marca marca, int años)
+    public VehiculosPlazas(  Marca marca, int años,int kilometros, int numPlazas)
     {
-        super( kilometros, marca, años);
+        super(marca, años,kilometros);
         this.numPlazas = numPlazas;
     }
 

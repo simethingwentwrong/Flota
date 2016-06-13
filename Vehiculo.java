@@ -10,25 +10,37 @@ public abstract class Vehiculo
     private int kilometros;
     private Marca marca;
     private int años;
-    private static int constante = 0;
+    private static int constante;
     private int identificador;
     /**
      * Constructor for objects of class Vehiculo
      */
-    public Vehiculo( int kilometros, Marca marca, int años)
+    public Vehiculo(  Marca marca, int años, int kilometros)
     {
         this.kilometros = kilometros;
         this.marca = marca;
         this.años = años;
-        if (constante == 0){
-            constante = 1;
-        }
-        else{
-            constante++;
-        }
         identificador = constante;
+        constante++;
     }
     
+    public int getIdentificador()
+    {
+        return identificador;
+    }
     
+    public int getKilometros()
+    {
+        return kilometros;
+    }
     
+    public Marca getMarca()
+    {
+        return marca;
+    }
+    
+    public int getAños()
+    {
+        return años;
+    }
 }

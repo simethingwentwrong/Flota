@@ -13,9 +13,9 @@ public class Coche extends VehiculosPlazas
     /**
      * Constructor for objects of class coche
      */
-    public Coche(int numPlazas, int kilometros, Marca marca, int años)
+    public Coche(  Marca marca, int años,int kilometros, int numPlazas)
     {
-        super(numPlazas, kilometros, marca, años);
+        super(marca, años,kilometros, numPlazas);
     }
 
     

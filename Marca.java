@@ -7,5 +7,5 @@
  */
 public enum Marca
 {
-    FORD, OPEL, CITROEN, FIAT
+    FIAT, FORD, OPEL, CITROEN
 }
