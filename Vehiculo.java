@@ -15,7 +15,7 @@ public abstract class Vehiculo
     /**
      * Constructor for objects of class Vehiculo
      */
-    public Vehiculo(int numPlazas, int kilometros, Marca marca, int años)
+    public Vehiculo( int kilometros, Marca marca, int años)
     {
         this.kilometros = kilometros;
         this.marca = marca;

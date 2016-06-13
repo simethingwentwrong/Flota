@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Camion
+public class Camion extends VehiculosGrandes
 {
     // instance variables - replace the example below with your own
     private int x;
@@ -13,10 +13,9 @@ public class Camion
     /**
      * Constructor for objects of class Camion
      */
-    public Camion()
+    public Camion(int peso, int kilometros, Marca marca, int años)
     {
-        // initialise instance variables
-        x = 0;
+        super(peso, kilometros, marca, años);
     }
 
     /**
